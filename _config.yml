@@ -1,6 +1,0 @@
-markdown: rdiscount
-highlighter: true
-
-ftp_host: 'carlshan.com'
-ftp_dir: '/public_html'
-
