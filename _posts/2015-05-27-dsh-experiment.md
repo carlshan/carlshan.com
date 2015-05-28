@@ -14,11 +14,10 @@ title: "How We Priced Our Book With An Experiment"
 
 *To get automatically notified about new posts, you can subscribe by [clicking here](https://carlshan.wufoo.com/forms/join-other-readers/). You can also subscribe via [RSS](http://feeds.feedburner.com/carlshan) to this blog to get updates.*
 
-------
-
+----
 
 ## Introduction: Pay What You Want?
-We (Carl Shan, Henry Wang, William Chen, Max Song) have been working on our book, The Data Science Handbook, for over a year now. Shortly before launch, we asked ourselves an important question that many authors face: how much should we charge for our book?
+My co-authors (Henry Wang, William Chen, Max Song) and I have been working on our book, The Data Science Handbook, for over a year now. Shortly before launch, we asked ourselves an important question that many authors face: how much should we charge for our book?
 
 We had heard of Pay-What-You-Want (PWYW) models, where readers can purchase the book for any amount they want (or at least above a threshold you set). However, many authors and creators worry that only a small percentage of people will contribute in a PWYW pricing model, and that these contributors will opt for meager amounts in the $1-$5 range. 
 
