@@ -4,43 +4,30 @@ title: Carl Shan
 ---
 
 <div id="home">
-  <h1>About</h1>
     <p>
-    My name is Carl. I'm currently a 2014 Fellow at the University of Chicago's <a href="http://dssg.io">Data Science for Social Good</a> program, working under <a href="http://rayidghani.com">Rayid Ghani</a> at the Center for Data Science and Public Policy. I am developing my statistics & computer science skills so that I can contribute to societal issues around poverty, health and education.
-  	</p>
+    My name is Carl. I'm currently a high school computer science teacher at Nueva, a school in San Mateo, CA. Before then, I was a 2016 Education Pioneers Fellow working at the national charter network Rocketship Education in Redwood City. Before that, I was a 2014 receipient of the University of Chicago's <a href="http://dssg.io">Data Science for Social Good</a> Fellowship, allowing me to work under Professor <a href="http://rayidghani.com">Rayid Ghani</a> at the Center for Data Science and Public Policy. I'm interested in using my background and experience in machine learning, statistics and computer science so that I can contribute to societal issues around poverty, health and education.
+    </p>
     <p>
     You can read the first in a series of posts chronicling my experiences as a DSSG Fellow <a href="http://carlshan.com/2014/06/08/dssg-week1.html">here</a>. You can also subscribe to get new writings <a href="https://carlshan.wufoo.com/forms/join-other-readers/">here!</a> 
     </p>
-  	<p>
-      In the past, I've worked at:
-      <li>
-        <a href="http://www.clever.com">Clever</a>: A venture-backed education technology startup that bridged the gap between student data and applications. I worked as an operations analyst & Python engineer.
-      </li>
-      <li>
-        <a href="http://blog.pearson.com/learning-on-the-job/">Pearson</a>: I worked at this education behemoth as a product manager on the mobile team.
-      </li>
-      <li>
-        <a href="http://www.udemy.com">Udemy</a>: A SF-based online course platform for courses aimed at professional skills. I worked on the sales team.
-      </li>
-  	</p>
     <p>
-      I graduated from UC Berkeley in 2013, where I majored in Statistics with coursework in philosophy (logic, foundations of pure mathematics) and computer science.
+      I graduated with high honors from UC Berkeley in 2013, where I majored in Statistics with coursework in philosophy, computer science and took a number of graduate-level courses in education.
     </p>
     <br />
 
-  <h1>Writings</h1>
+  <h2>Words</h2>
     <ul class="posts">
       {% for post in site.posts %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
 
-  <h1>Projects</h1>
+  <h2>Books</h2>
+    <p>See this <a href="/books/books.html">link</a> for a list of books I've authored.</p>
+
+  <h2>Code</h2>
     <ul class="posts">
 	<li><a href="https://github.com/dssg/student-early-warning">Predicting dropouts:</a> Using machine learning to detect students at-risk of dropping out of high school.</li>
 	<li><a href="https://github.com/dssg/healthleads-public">Predicting social service outcomes:</a> Using machine learning to predict whether patients would drop out of Health Leads, a nonprofit connecting low-income patients with basic resources.</a></li>
-      <li><a href="http://www.cpmentorship.com/">CompassPoint:</a> A non-profit peer-mentoring program I co-founded and directed.</li>
-      <li><a href="http://www.datasciencehandbook.me/">Data Science Handbook:</a> A handbook of interviews with data scientists.</li>
-      <li><a href="http://thepmhandbook.com/">Product Manager Handbook:</a> A handbook of interviews with product managers.</li>
     </ul>
 </div>
