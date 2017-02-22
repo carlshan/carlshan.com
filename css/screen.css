@@ -90,21 +90,11 @@ blockquote {
     margin: 5px;
     background-position: top left;
     background-repeat: no-repeat;
-    text-indent: 23px;
     display: block;
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-blockquote:before {
-    display: block;
-    content: "\201C";
-    font-size: 80px;
-    position: absolute;
-    left: -20px;
-    top: -20px;
-    color: #7a7a7a;
-}
 
 /*****************************************************************************/
 /*
