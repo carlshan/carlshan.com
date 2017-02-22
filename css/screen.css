@@ -81,6 +81,31 @@ table {
   font: 100%;
 }
 
+blockquote {
+    font: 13.34px helvetica, arial, clean, sans-serif;
+    padding: 8px;
+    background-color: #faebbc;
+    border-top: 1px solid #e1cc89;
+    border-bottom: 1px solid #e1cc89;
+    margin: 5px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-indent: 23px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
 /*****************************************************************************/
 /*
 /* Home
@@ -226,20 +251,3 @@ ul.posts {
     margin-bottom: 1em;
   }
 
-blockquote {
-    font: 14px/20px italic Times, serif;
-    padding: 8px;
-    background-color: #faebbc;
-    border-top: 1px solid #e1cc89;
-    border-bottom: 1px solid #e1cc89;
-    margin: 5px;
-    background-position: top left;
-    background-repeat: no-repeat;
-    text-indent: 23px;
-}
-
-blockquote span {
-    display: block;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-}
